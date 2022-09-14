@@ -1,6 +1,6 @@
 CREATE DATABASE ig_clone;
 
-USE ig_clone;
+USE ig_replicate;
 
 /*Users*/
 CREATE TABLE users(
