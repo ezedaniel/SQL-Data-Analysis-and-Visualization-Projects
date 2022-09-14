@@ -1,4 +1,4 @@
-CREATE DATABASE ig_clone;
+CREATE DATABASE ig_replication;
 
 USE ig_replicate;
 
