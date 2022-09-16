@@ -36,7 +36,8 @@ LIMIT 1;
 
 -- How many times does the avg user post?
 -- # photos / # users
-SELECT ((SELECT COUNT(*) FROM Photos) / (SELECT COUNT(*) FROM Users));
+SELECT ((SELECT COUNT(*) FROM Photos) / (SELECT COUNT(*) FROM Users))
+;
 
 -- What are the top 5 most commonly used hashtags?
 SELECT tags.tag_name, 
